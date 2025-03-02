@@ -28,14 +28,16 @@
   
   **1. Describe the data that you would need to collect to build a recommendation system to recommend student loan options for students. Explain why this data would be relevant and appropriate.**
 
-*Students personal data like- Educational background, location, Stem career, time to complete the studies, Financial data like - payment history, credit score, financial loan options are all relevant for designing the recommendation system as this ensures a system that can deliver accurate and personalized loan options for the particular student.*
+*Students personal data like- Educational background, location, Stem career, time to complete the studies, Financial data like - payment history, credit score, financial loan options are all relevant for designing the recommendation system as this ensures a system that can deliver accurate and personalized loan options for the particular student.This approach ensures that each student receives a personalized recommendation tailored to their unique situation, rather than relying on interactions with other users or external contexts.*
 
 **2. Based on the data you chose to use in this recommendation system, would your model be using collaborative filtering, content-based filtering, or context-based filtering? Justify why the data you selected would be suitable for your choice of filtering method.**
 
-*The data needed such as the educational background, financial data aligns with the principals of content based filtering where recommendations are based on the features itself. In this case, the recommendation system suggests loans that match the features of the student’s profile and the available loan options.* 
+*The model will use Content-based filtering. The data needed such as the educational background, financial data aligns with the principals of content based filtering where recommendations are based on the features itself. In this case, the recommendation system suggests loans that match the features of the student’s profile and the available loan options.* 
 
 **3. Describe two real-world challenges that you would take into consideration while building a recommendation system for student loans. Explain why these challenges would be of concern for a student loan recommendation system.**
 
+Two real-world challenges would be Data privacy /security and Bias in Recommendation.
+
 *1. Data privacy and security. These student's data needed to build the system are sensitive data and are confidential. If these are not handled carefully, the data would be exposed to cyber threats leading to identity theft and financial fraud.*
 
-*2. The recommendation system might have a bias over certain students from certain educational and financial background if we do not have the necessary data from a diverse population.*
+*2. Bias in recommendation: The recommendation system might have a bias over certain students from certain educational and financial background if we do not have the necessary data from a diverse population.*
